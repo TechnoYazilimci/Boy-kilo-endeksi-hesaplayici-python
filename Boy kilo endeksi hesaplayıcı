@@ -1,0 +1,11 @@
+adınız=input("adınızı giriniz:")
+kilo=int(input("kilonuzu giriniz:"))
+boy=float(input("boyunuzu giriniz:"))
+formül=kilo/(boy*boy)
+print(adınız,",boy kilo endeksi sayısal değerin:",formül)
+if 0<=formül<=18 :
+    print("normalin altında çıktın! KİLO ALMAN GEREKİYOR!")
+elif 18<formül<=24:
+    print("normal çıktın.İDEAL KİLODASIN.")
+elif 24<formül:
+   print(" Normalin üstünde çıktın.KİLO VERMEN GEREKİYOR!")
